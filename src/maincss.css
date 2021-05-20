@@ -62,3 +62,43 @@
     background-color: yellow;
     padding: 5px 20px;
 }
+
+.outernavbar {
+    background-color: #5333ed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.leftnavbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    color: white;
+}
+
+.leftnavbar img {
+    margin-right: 10px;
+}
+
+.rightnavbar {
+    margin-right: 40px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 40%;
+    padding: 3px;
+    margin-top: 10px;
+    z-index: 2;
+}
+
+#avatarpng {
+    z-index: 1;
+}
+
+.backgroundofLandingPage {
+    background-color: #2cd4d9;
+    width: 100vw;
+    height: 100vh;
+}

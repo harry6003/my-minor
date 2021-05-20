@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import BottomofNavbar from './BottomofNavbar'
 import Navbar from './Navbar'
 
 export default class StudentLandingPage extends Component {
@@ -6,6 +7,7 @@ export default class StudentLandingPage extends Component {
     return (
       <div>
         <Navbar/>
+        <BottomofNavbar/>
       </div>
     )
   }
