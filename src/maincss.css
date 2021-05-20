@@ -1,0 +1,64 @@
+.backgroundoflogincontainer {
+    background-color: chartreuse;
+    height: 100vh;
+    width: 100vw;
+}
+
+.outercontainerlogin {
+    background-color: aqua;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 130px;
+    left: 330px;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.rightpartlogin {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.logindetails {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.containerofloginpass {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.headingoflogin,
+.username,
+.password,
+.submitbutton {
+    margin-bottom: 25px;
+}
+
+.headingoflogin {
+    letter-spacing: 0.5px;
+}
+
+.inputlogin {
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.submitbutton {
+    margin: 0 auto;
+}
+
+.loginbutton {
+    background-color: yellow;
+    padding: 5px 20px;
+}
