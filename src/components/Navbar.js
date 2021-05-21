@@ -4,7 +4,7 @@ import avatar from '../avataaars.png'
 export default class Navbar extends Component {
   render() {
     return (
-      <div className="backgroundofLandingPage">
+      <div >
        <div className="outernavbar">
          <div className="leftnavbar">
          <img src={clglogo} alt="college-logo" width="60px"/>

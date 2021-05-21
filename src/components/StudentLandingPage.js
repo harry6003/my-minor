@@ -4,6 +4,8 @@ import Navbar from './Navbar'
 
 export default class StudentLandingPage extends Component {
   render() {
+
+   
     return (
       <div>
         <Navbar/>
