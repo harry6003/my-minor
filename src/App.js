@@ -3,6 +3,9 @@ import './App.css';
 import Login from './components/Login'
 import StudentLandingPage from './components/StudentLandingPage'
 import TeacherLandingPage from './components/TeacherLandingPage'
+import Home from "./components/Home"
+import Classroom from "./components/Classroom"
+import About from './components/About';
 import {
 
   BrowserRouter as Router,
@@ -10,6 +13,7 @@ import {
   Route
 
 } from "react-router-dom";
+
 function App() {
   return (
     <Router>
@@ -29,6 +33,24 @@ function App() {
           <Route exact path="/TeacherLandingPage" render={() => {
            return(
               <TeacherLandingPage/>   
+           );
+         }}> 
+          </Route>
+          <Route exact path="/About" render={() => {
+           return(
+              <About/>   
+           );
+         }}> 
+          </Route>
+          <Route exact path="/Home" render={() => {
+           return(
+              <Home/>   
+           );
+         }}> 
+          </Route>
+          <Route exact path="/Classroom" render={() => {
+           return(
+              <Classroom/>   
            );
          }}> 
           </Route>

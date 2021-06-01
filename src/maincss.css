@@ -69,7 +69,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 10vh;
+    /* height: 10vh; */
     color: white;
     padding: 0 20px;
     align-items: center;
@@ -81,6 +81,11 @@
     align-items: center;
 }
 
+.leftnavbar img {
+    /* height: 70px; */
+    width: 45px;
+}
+
 .leftnavbar h1 {
     margin-left: 20px;
 }
@@ -88,7 +93,8 @@
 .headingofclasses {
     padding-top: 10px;
     text-align: center;
-    color: rgb(66, 66, 66);
+    /* color: rgb(66, 66, 66); */
+    color: white;
 }
 
 #avatarpng {
@@ -98,13 +104,13 @@
 }
 
 .outerbottomofnavbar {
-    background-color: #2cd4d9;
+    background-color: #4e5353;
     width: 100vw;
     height: 90vh;
 }
 
 .classescontainer {
-    background-color: #2cd4d9;
+    background-color: #4e5353;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -113,7 +119,7 @@
 
 .classes {
     flex-basis: auto;
-    background-color: aquamarine;
+    background-color: #FFC300;
     display: inline-block;
     /* margin-top: 50px;
     margin-right: 100px;
@@ -123,6 +129,28 @@
     border-radius: 20px;
     font-size: x-large;
     font-weight: 700;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition: transform 1s ease-in-out;
+    cursor: pointer;
+}
+
+.classes:hover {
+    transform: scale(1.2);
+}
+
+.collegeheader {
+    text-align: center;
+}
+
+.allabout {}
+
+.infoaboutdepartment {}
+
+.navbarlinks {
+    background-color: #FFC300;
+    margin-right: 80px;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 
