@@ -46,18 +46,11 @@ export default class Login extends Component {
    {
       let d = document.getElementsByClassName('loginbutton')[0];
          console.log("I am, logedin in s",d  );
-         d.href = "/StudentLandingPage";
+         d.href = "/Home";
        
       
    }
-   else if(this.state.uname === 'teacherdemo' && this.state.pswd === '1234')
-   {
-       let d = document.getElementsByClassName('loginbutton')[0];
-         console.log("I am, logedin in t",d  );
-         d.href = "/TeacherLandingPage";
-       
-   
-   }
+ 
     event.preventDefault();
   }
   render(){

@@ -1,9 +1,13 @@
 import React from 'react'
-
+import BottomofNavbar from './BottomofNavbar'
+import Navbar from './Navbar'
 export default function Classroom() {
   return (
     <div>
-      <h1>HELLO I AM CLASSROOM COMPONENT</h1>
+         
+        <Navbar/>
+        <BottomofNavbar/>
+      
     </div>
   )
 }

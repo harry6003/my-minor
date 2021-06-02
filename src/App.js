@@ -2,7 +2,6 @@
 import './App.css';
 import Login from './components/Login'
 import StudentLandingPage from './components/StudentLandingPage'
-import TeacherLandingPage from './components/TeacherLandingPage'
 import Home from "./components/Home"
 import Classroom from "./components/Classroom"
 import About from './components/About';
@@ -30,12 +29,7 @@ function App() {
            );
          }}> 
           </Route>
-          <Route exact path="/TeacherLandingPage" render={() => {
-           return(
-              <TeacherLandingPage/>   
-           );
-         }}> 
-          </Route>
+         
           <Route exact path="/About" render={() => {
            return(
               <About/>   
