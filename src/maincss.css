@@ -106,7 +106,7 @@
 .outerbottomofnavbar {
     background-color: #4e5353;
     width: 100vw;
-    height: 90vh;
+    height: 43.1rem;
 }
 
 .classescontainer {
@@ -221,7 +221,7 @@
 
 .cros {
     margin: 100px auto 0 auto;
-    height: 800px;
+    height: 540px;
     width: 60%;
 }
 
@@ -236,4 +236,85 @@
     margin-top: 20px;
     padding: 10px 80px;
     font-size: 25px;
+}
+
+
+/* about us */
+
+.aboutusheading {
+    text-align: center;
+    color: #5333ed;
+    font-size: xx-large;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.mission {
+    background-color: #4e5353;
+    color: aliceblue;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.ourmission {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.aboutourmission {
+    text-align: center;
+    padding: 40px 40px 0 40px;
+}
+
+.headingofaboutourmission {
+    color: #FFC300;
+}
+
+.devlopers {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.devloper {
+    border: 2px solid #4e5353;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.devloper>img {
+    height: 200px;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.devloper p {
+    margin: 0 20px 40px 20px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+}
+
+.socialmedia a {
+    margin: 0 50px 50px 50px;
+}
+
+.socialmedia img {
+    width: 50px;
+    height: 50px;
+}
+
+.nameofdevloper {
+    text-align: center;
+    color: #5333ed;
 }
