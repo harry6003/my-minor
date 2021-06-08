@@ -318,3 +318,47 @@
     text-align: center;
     color: #5333ed;
 }
+
+
+/* Every Subject  */
+
+.s-container {
+    background-color: #bac0dc;
+    background: url("https://media.istockphoto.com/photos/colorful-pencils-white-papers-and-metal-pencil-sharpener-empty-place-picture-id925244914?k=6&m=925244914&s=612x612&w=0&h=OPpMVvrskx7VuBHlXTXrZx5u_Sxe2miXNo-8i90iaJc=") no-repeat center center/cover;
+}
+
+.heading-sub {
+    padding: 33px;
+    color: #0b123d;
+    text-align: center;
+    font-family: 'Ruluko', sans-serif;
+    font-weight: 900;
+    padding-bottom: 6px;
+    margin-left: 375px;
+}
+
+.des-para {
+    color: #29350a;
+    font-size: 18px;
+    padding: 15px 90px;
+    text-align: center;
+    margin-left: 375px;
+}
+
+.sitems {
+    width: 33.4%;
+    text-align: center;
+}
+
+.nav-sublink {
+    text-decoration: none;
+    color: #ccbee3;
+    font-size: 28px;
+    font-weight: 600;
+    background-color: #23236a;
+    border: 2px solid #e8e3f1;
+}
+
+a.active-link {
+    text-decoration: underline;
+}
