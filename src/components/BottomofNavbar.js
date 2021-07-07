@@ -57,20 +57,20 @@ render()
      
       </div>
       <div className="classes">
-      <a href="#"  onMouseOver={this.handlejava}  className="subjectcard">JAVA</a>
+      <a href="#"  onMouseOver={this.handlejava}  className="subjectcard">Java</a>
       </div>
       <div className="classes">
       
-      <a href="#"  onMouseOver={this.handlepython}  className="subjectcard">PYTHON</a>
+      <a href="#"  onMouseOver={this.handlepython}  className="subjectcard">Python</a>
       </div>
       <div className="classes">
       <a href="#"  onMouseOver={this.handlehtmlandcss}  className="subjectcard">HTML & CSS</a>
       </div>
       <div className="classes">
-      <a href="#"  onMouseOver={this.handlejavascript}  className="subjectcard">JAVASCRIPT</a>
+      <a href="#"  onMouseOver={this.handlejavascript}  className="subjectcard">JavaScript</a>
       </div>
       <div className="classes"> 
-      <a href="#"  onMouseOver={this.hancdleREACT}  className="subjectcard">REACT</a>
+      <a href="#"  onMouseOver={this.hancdleREACT}  className="subjectcard">ReactJS</a>
       </div>
     </div>
     </div>
